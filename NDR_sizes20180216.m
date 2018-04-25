@@ -1,17 +1,17 @@
-load ../gene_annotations/harry_annotations.mat;
-load ../gene_annotations/RPG_geneCoords.mat;
-load ../gene_annotations/OX_geneCoords.mat;
-load ../gene_annotations/RB_geneCoords.mat;
-load ../gene_annotations/RC_geneCoords.mat;
-load ../gene_annotations/harry_5Clusters_1.mat;
-load ../gene_annotations/harry_5Clusters_2.mat;
-load ../gene_annotations/harry_5Clusters_3.mat;
-load ../gene_annotations/harry_5Clusters_4.mat;
-load ../gene_annotations/harry_5Clusters_5.mat;
+load ./harry_annotations.mat;
+load ./RPG_geneCoords.mat;
+load ./OX_geneCoords.mat;
+load ./RB_geneCoords.mat;
+load ./RC_geneCoords.mat;
+load ./harry_5Clusters_1.mat;
+load ./harry_5Clusters_2.mat;
+load ./harry_5Clusters_3.mat;
+load ./harry_5Clusters_4.mat;
+load ./harry_5Clusters_5.mat;
 
-load ../MNase_files/DANPOS_nucPositions_BY_D.mat;
-load ../MNase_files/DANPOS_nucPositions_BY_15mG.mat;
-load ../MNase_files/DANPOS_nucPositions_BY_60mG.mat;
+load ./DANPOS_nucPositions_BY_D.mat;
+load ./DANPOS_nucPositions_BY_15mG.mat;
+load ./DANPOS_nucPositions_BY_60mG.mat;
 
 gene_datasets = cell(10,1);
 gene_datasets{1}=harry_annotations;
